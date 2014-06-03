@@ -7,7 +7,7 @@ Each example has a folder and, inside it, there is a ```Readme.md```file with th
 
 
 ## List of samples
-- How to configure a cluster with NodeJS (blog post here);
+- How to configure a cluster with NodeJS (blog post [here](http://tostring.it/2014/06/03/how-to-configure-a-cluster-with-node-js/));
 
 ##Questions?
 Write me **[here](https://github.com/imperugo/NodeJs-Sample/issues)**, contact me via email (available on my Github **[profile](https://github.com/imperugo)**) or follow me on Twitter **[here](http://www.twitter.com/imperugo)**.
