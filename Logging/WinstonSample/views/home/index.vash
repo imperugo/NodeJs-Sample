@@ -1,0 +1,14 @@
+﻿@html.extend('layout', function(model) {
+  @html.block("body", function (model) {
+
+    @if (model.error) {
+      <p class="text-error">Error occurred: @model.error</p>
+    }
+
+    <div class="row">
+      Visit my blog <a href="http://tostring.it" target="_blank">here</a> and follow me on
+      <a href="http://twitter.com/imperugo">twitter</a>
+    </div>
+
+  })
+})

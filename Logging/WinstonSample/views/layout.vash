@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html>
+<head>
+  <title>@model.title</title>
+  <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+  <link href="/css/site.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+        <div id="logo">
+          <a href='/'>
+            <h4>@model.applicationName</h4>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav">
+            <a href="/">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section id="body" class="container">
+    <div class="page-header">
+      <h1>@model.title</h1>
+    </div>
+    @html.block("body")
+  </section>
+
+  <hr />
+
+  <footer class="container">
+    <p>The Footer</p>
+  </footer>
+
+  <script src="/lib/jquery/dist/jquery.min.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
