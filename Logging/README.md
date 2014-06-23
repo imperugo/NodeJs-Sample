@@ -4,4 +4,4 @@ This example comes from the [this](http://tostring.it/2014/06/23/advanced-loggin
 I suggest you to read the post before look the code.
 
 - [Console Log](ConsoleLogSample/app.js)
-- [Winston](WinstoneSample/app.js)
+- [Winston](WinstonSample/app.js)
